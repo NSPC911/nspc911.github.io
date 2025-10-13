@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('posts'))
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="$HOME | NSPC911">
+  <div class="index-content framed">
+    <img src="https://avatars.githubusercontent.com/u/87571998?v=4">
+    <div>
+      <h1 id="hello-there">Hello there!</h1>
+      <p>Hi, I am NSPG911, but in the coding world, I go by NSPC911.</p>
+      <p>I am an avid python dev who is looking to tinker in other languages as well.</p>
+    </div>
+  </div>
+  <div class="posts">
+    {posts.map((post) => <PostCard post={post} />)}
+  </div>
+</BaseLayout>
+<style>
+.index-content {
+  display: flex;
+  flex-direction: row
+}
+img {
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  + div {
+    margin-left: 25px
+  }
+}
+</style>
