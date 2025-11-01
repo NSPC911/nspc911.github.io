@@ -74,6 +74,7 @@
   left: 0;
   list-style: none;
   z-index: 99;
+  width: 17ch;
 }
 
 .open .menu__dropdown {
@@ -122,22 +123,22 @@
   .navigation-menu {
     margin: 0;
   }
-  
+
   .menu--desktop {
     display: none;
   }
-  
+
   .menu--mobile {
     display: flex;
   }
-  
+
   .menu--mobile .menu__dropdown {
     left: auto;
     right: 0;
     top: 100%;
     margin-top: 5px;
   }
-  
+
   .menu--language-selector .menu__dropdown {
     left: auto;
     right: 0;

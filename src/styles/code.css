@@ -1,16 +1,20 @@
+@import "nord.css";
+
 /* Code blocks functionality */
 .highlight {
   position: relative;
   margin: 20px 0;
   border: 1px solid var(--code-border);
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .code-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: color-mix(in srgb, var(--foreground) 5%, transparent);
-  border-bottom: 1px solid var(--code-border);
+  background: var(--nord1);
+  border-top: 1px solid var(--code-border);
   color: var(--comment);
   text-transform: uppercase;
   font-size: calc(var(--font-size) * .8);
@@ -115,4 +119,23 @@
   display: block;
   padding-right: 0.8em;
   text-align: right;
+}
+
+pre.astro-code {
+  tab-size: 4;
+  background: var(--nord1) !important;
+  color: color-mix(in srgb, var(--foreground) 5%, var(--accent));
+  padding: 1em 2ch !important;
+  font-size: 0.95em !important;
+  overflow: auto;
+  border-radius: var(--radius);
+  border: none !important;
+}
+
+pre code {
+  background: none !important;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  border: none;
 }

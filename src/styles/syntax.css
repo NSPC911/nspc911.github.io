@@ -1,12 +1,14 @@
 /* Syntax highlighting theme for Astro Terminal theme */
 /* This uses a monochrome approach where all syntax elements are in accent color */
 
+@import "nord.css";
+
 /* Astro/Shiki CSS Variables for monochrome syntax highlighting */
 :root {
   /* Base colors - most text should be white/foreground */
   --astro-code-color-text: var(--foreground);
   --astro-code-color-background: color-mix(in srgb, var(--foreground) 5%, transparent);
-  
+
   /* Default all tokens to foreground (white) */
   --astro-code-foreground: var(--foreground);
   --astro-code-token-constant: var(--foreground);
@@ -18,7 +20,7 @@
   --astro-code-token-string-expression: var(--accent);
   --astro-code-token-punctuation: var(--foreground);
   --astro-code-token-link: var(--accent);
-  
+
   /* Additional token types */
   --astro-code-token-namespace: var(--foreground);
   --astro-code-token-tag: var(--accent);
@@ -33,9 +35,9 @@
   --astro-code-token-regex: var(--accent);
   --astro-code-token-boolean: var(--accent);
   --astro-code-token-important: var(--accent);
-  
+
   /* Additional variables for code styling */
-  --code-border: color-mix(in srgb, var(--foreground) 25%, transparent);
+  --code-border: var(--nord9);
   --comment: color-mix(in srgb, var(--foreground) 50%, transparent);
 }
 

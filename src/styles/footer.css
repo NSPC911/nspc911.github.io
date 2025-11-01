@@ -1,8 +1,9 @@
 /* Footer */
 .footer {
-  padding: 40px 0;
+  padding: 40px 0 0 0;
   flex-grow: 0;
   opacity: .65;
+  font-size: 0.5rem;
 }
 
 .footer__inner {
@@ -53,34 +54,34 @@
   .footer {
     padding: 20px 0;
   }
-  
+
   .footer__inner {
     padding: 0 10px;
   }
-  
+
   .copyright {
     flex-wrap: wrap;
     text-align: center;
     gap: 5px;
   }
-  
+
   .copyright span {
     font-size: 14px;
     line-height: 1.6;
     white-space: normal;
   }
-  
+
   /* Hide separators on mobile for cleaner layout */
   .copyright .separator {
     display: none;
   }
-  
+
   /* Each text span on its own line on mobile */
   .copyright span:not(.separator) {
     display: block;
     width: 100%;
   }
-  
+
   /* Make links more touch-friendly on mobile */
   .footer a {
     padding: 2px 4px;

@@ -84,7 +84,6 @@
 
 .term-posts h2 {
   color: var(--accent);
-  border-bottom: 3px dotted var(--accent);
   padding-bottom: 10px;
 }
 
