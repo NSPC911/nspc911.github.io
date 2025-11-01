@@ -1,4 +1,5 @@
 ---
+import { Github, Discord } from 'simple-icons-astro';
 export interface Props {
   title: string;
   description?: string;
@@ -53,6 +54,8 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
             <li>
               <ul class="menu__dropdown">
                 <li><a href={`${base}about/`}>About</a></li>
+                <li><a href="https://github.com/NSPC911">GitHub</a></li>
+                <li><a href={`${base}discord/`}>Discord</a></li>
               </ul>
             </li>
           </ul>
@@ -61,6 +64,8 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
         <nav class="navigation-menu">
           <ul class="navigation-menu__inner menu--desktop">
             <li><a href={`${base}about/`}>About</a></li>
+            <li><a href="https://github.com/NSPC911"><Github/>GitHub</a></li>
+            <li><a href={`${base}discord/`}><Discord/>Discord</a></li>
             <!-- <li> -->
               <!-- <ul class="menu"> -->
                 <!-- <li class="menu__trigger">Show more ▾</li> -->
@@ -81,14 +86,6 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
       <main class="content">
         <slot />
       </main>
-
-      <footer class="footer">
-        <div class="footer__inner">
-          <div class="copyright">
-            <span>© 2025 Powered by <a href="https://astro.build">Astro</a> with <a href="https://github.com/dennisklappe/astro-theme-terminal">dennisklappe/astro-theme-terminal</a></span>
-          </div>
-        </div>
-      </footer>
     </div>
 
     <script>

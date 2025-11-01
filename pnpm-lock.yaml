@@ -14,6 +14,9 @@ importers:
       astro:
         specifier: ^5.15.3
         version: 5.15.3(@types/node@24.9.2)(rollup@4.52.5)(typescript@5.9.3)
+      simple-icons-astro:
+        specifier: ^15.18.0
+        version: 15.18.0(astro@5.15.3(@types/node@24.9.2)(rollup@4.52.5)(typescript@5.9.3))
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -1189,6 +1192,11 @@ packages:
 
   shiki@3.14.0:
     resolution: {integrity: sha512-J0yvpLI7LSig3Z3acIuDLouV5UCKQqu8qOArwMx+/yPVC3WRMgrP67beaG8F+j4xfEWE0eVC4GeBCIXeOPra1g==}
+
+  simple-icons-astro@15.18.0:
+    resolution: {integrity: sha512-in8DNxSrPyPy6ltoggTY5AiYIi+n0Eyx/1T53A3JWXXjCQDIt3Dyyt4zeOEk/c/n/I/SOVK39bmyfnwhjM5+XQ==}
+    peerDependencies:
+      astro: '>=2.7.1'
 
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
@@ -2932,6 +2940,10 @@ snapshots:
       '@shikijs/types': 3.14.0
       '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
+
+  simple-icons-astro@15.18.0(astro@5.15.3(@types/node@24.9.2)(rollup@4.52.5)(typescript@5.9.3)):
+    dependencies:
+      astro: 5.15.3(@types/node@24.9.2)(rollup@4.52.5)(typescript@5.9.3)
 
   sisteransi@1.0.5: {}
 
