@@ -65,7 +65,10 @@
   flex-direction: column;
   position: absolute;
   background: var(--background);
-  box-shadow: 0 10px var(--background), -10px 10px var(--background), 10px 10px var(--background);
+  box-shadow:
+    0 10px var(--background),
+    -10px 10px var(--background),
+    10px 10px var(--background);
   color: var(--accent);
   border: 2px solid var(--accent);
   margin: 0;

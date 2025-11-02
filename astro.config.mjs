@@ -1,16 +1,16 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
+import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nspc911.github.io',
+  site: "https://nspc911.github.io",
   // Only use base path in production (GitHub Pages)
-  base: process.env.NODE_ENV === 'production' ? '/astro-theme-terminal' : '/',
+  base: "/",
   integrations: [sitemap()],
   markdown: {
     shikiConfig: {
-      theme: 'css-variables',
+      theme: "css-variables",
       langs: [],
       wrap: true,
     },

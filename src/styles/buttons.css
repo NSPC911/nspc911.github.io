@@ -22,7 +22,7 @@
   padding: 5px 18px;
   border: 4px solid var(--accent);
   border-radius: var(--radius);
-  transition: background .15s linear;
+  transition: background 0.15s linear;
   appearance: none;
   cursor: pointer;
   outline: none;
@@ -59,7 +59,7 @@
 }
 
 .button.small {
-  font-size: calc(var(--font-size) * .8);
+  font-size: calc(var(--font-size) * 0.8);
 }
 
 .button.wide {
@@ -93,7 +93,7 @@
 
 .navigation-menu svg {
   height: 1em;
-  transform: translateY(2.5px)
+  transform: translateY(2.5px);
 }
 
 .navigation-menu a {
@@ -119,19 +119,21 @@
     border-right: 0px solid var(--accent);
     border-bottom: 1px solid var(--accent);
     content: "";
-    transition: border-top 0.125s ease,
-                border-bottom 0.125s ease 0.125s,
-                border-left 0.125s ease 0.0625s,
-                border-right 0.125s ease 0.0625s;
+    transition:
+      border-top 0.125s ease,
+      border-bottom 0.125s ease 0.125s,
+      border-left 0.125s ease 0.0625s,
+      border-right 0.125s ease 0.0625s;
   }
   &:hover::after {
     border-top: 2px solid var(--accent);
     border-left: 2px solid var(--accent);
     border-right: 2px solid var(--accent);
     border-bottom: 2px solid var(--accent);
-    transition: border-top 0.125s ease 0.125s,
-                border-bottom 0.125s ease,
-                border-left 0.125s ease 0.0625s,
-                border-right 0.125s ease 0.0625s;
+    transition:
+      border-top 0.125s ease 0.125s,
+      border-bottom 0.125s ease,
+      border-left 0.125s ease 0.0625s,
+      border-right 0.125s ease 0.0625s;
   }
 }

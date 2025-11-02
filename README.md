@@ -1,7 +1,5 @@
 # my site
 
-
-
 Thank you so much to the template provided https://astro.build/themes/details/astro-terminal
 
 ```

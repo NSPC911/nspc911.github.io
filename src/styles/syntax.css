@@ -7,16 +7,28 @@
 :root {
   /* Base colors - most text should be white/foreground */
   --astro-code-color-text: var(--foreground);
-  --astro-code-color-background: color-mix(in srgb, var(--foreground) 5%, transparent);
+  --astro-code-color-background: color-mix(
+    in srgb,
+    var(--foreground) 5%,
+    transparent
+  );
 
   /* Default all tokens to foreground (white) */
   --astro-code-foreground: var(--foreground);
   --astro-code-token-constant: var(--foreground);
   --astro-code-token-string: var(--foreground);
-  --astro-code-token-comment: color-mix(in srgb, var(--foreground) 50%, transparent);
+  --astro-code-token-comment: color-mix(
+    in srgb,
+    var(--foreground) 50%,
+    transparent
+  );
   --astro-code-token-keyword: var(--accent);
   --astro-code-token-parameter: var(--foreground);
-  --astro-code-token-function: color-mix(in srgb, var(--accent) 70%, transparent);
+  --astro-code-token-function: color-mix(
+    in srgb,
+    var(--accent) 70%,
+    transparent
+  );
   --astro-code-token-string-expression: var(--accent);
   --astro-code-token-punctuation: var(--foreground);
   --astro-code-token-link: var(--accent);
@@ -26,7 +38,11 @@
   --astro-code-token-tag: var(--accent);
   --astro-code-token-selector: var(--accent);
   --astro-code-token-attribute: var(--foreground);
-  --astro-code-token-attribute-name: color-mix(in srgb, var(--accent) 70%, transparent);
+  --astro-code-token-attribute-name: color-mix(
+    in srgb,
+    var(--accent) 70%,
+    transparent
+  );
   --astro-code-token-variable: var(--foreground);
   --astro-code-token-literal: var(--foreground);
   --astro-code-token-number: var(--foreground);

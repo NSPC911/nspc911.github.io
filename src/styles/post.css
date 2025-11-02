@@ -10,7 +10,8 @@
 }
 
 .post:not(:last-of-type) {
-  border-bottom: 1px solid color-mix(in srgb, var(--foreground) 10%, transparent);
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--foreground) 10%, transparent);
 }
 
 .post-meta {
@@ -166,7 +167,6 @@ iframe[src*="soundcloud"] {
   border: 8px solid var(--accent);
   margin: 25px 0;
 }
-
 
 /* CodePen embeds */
 iframe[src*="codepen"] {
