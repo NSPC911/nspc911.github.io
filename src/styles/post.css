@@ -18,11 +18,12 @@
   font-size: inherit;
   margin-bottom: 10px;
   color: color-mix(in srgb, var(--foreground) 65%, transparent);
+  display: flex;
+  flex-direction: row;
 }
 
 .post-author::before {
-  content: " :: ";
-  display: inline;
+  content: " ::";
 }
 
 .post-title {
@@ -49,7 +50,7 @@
 
 .post-tags {
   display: block;
-  margin-bottom: 20px;
+  margin-left: 20px;
   font-size: inherit;
   color: var(--accent);
 }
@@ -93,7 +94,7 @@
 }
 
 .post-content {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 /* Post navigation */
@@ -120,8 +121,6 @@
 article time {
   color: color-mix(in srgb, var(--foreground) 65%, transparent);
 }
-
-/* Removed - handled by .post-author::before instead */
 
 /* Video embeds */
 .video-wrapper {

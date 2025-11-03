@@ -42,7 +42,7 @@
 
 /* Figure with caption - matching Hugo theme */
 figure {
-  display: inline-block;
+  display: block;
   margin: 25px auto;
   padding: 0;
   background: transparent;

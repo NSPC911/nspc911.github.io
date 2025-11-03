@@ -161,30 +161,16 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
   @import "../styles/terms.css";
   @import "../styles/nord.css";
   @keyframes dotColorShift {
-    0% {
-      background-color: var(--nord2);
-    }
-    25% {
-      background-color: var(--nord3);
-    }
-    50% {
-      background-color: var(--nord10);
-    }
-    75% {
-      background-color: var(--nord3);
-    }
-    100% {
-      background-color: var(--nord2);
-    }
+    0% { background-color: var(--nord2) }
+    25% { background-color: var(--nord3) }
+    50% { background-color: var(--nord10) }
+    75% { background-color: var(--nord3) }
+    100% { background-color: var(--nord2) }
   }
 
   @keyframes dotMove {
-    0% {
-      background-position: 0 0;
-    }
-    100% {
-      background-position: 20px 0;
-    }
+    0% { background-position: 0 0 }
+    100% { background-position: 20px 0 }
   }
 
   body {

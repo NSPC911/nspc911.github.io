@@ -35,16 +35,16 @@ const isExternal = !!post.data.externalLink;
     {post.data.author && (
       <span class="post-author">{post.data.author}</span>
     )}
+    {post.data.tags && post.data.tags.length > 0 && (
+      <span class="post-tags">
+        {post.data.tags.map((tag, _) => (
+          <>
+            <a href={`${base}tags/${tag}/`}>{tag}</a>
+          </>
+        ))}
+      </span>
+    )}
   </div>
-  {post.data.tags && post.data.tags.length > 0 && (
-    <span class="post-tags">
-      {post.data.tags.map((tag, index) => (
-        <>
-          <a href={`${base}tags/${tag}/`}>{tag}</a>{index < post.data.tags.length - 1 && ', '}
-        </>
-      ))}
-    </span>
-  )}
   {post.data.image && (
     <figure class="post-cover">
       <img src={post.data.image} alt={post.data.title} />
@@ -61,3 +61,8 @@ const isExternal = !!post.data.externalLink;
     </a>
   </div>
 </article>
+<style>
+.post-content p {
+  padding: 0 0 12.5px 0
+}
+</style>
