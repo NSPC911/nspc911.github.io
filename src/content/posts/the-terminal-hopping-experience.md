@@ -127,4 +127,11 @@ config.automatically_reload_config = true
 
   With that now solved, I am now still using Wezterm. The config reached 220+ lines, and aside from some minor ocassional crashes, there isn't any issues.
 
+<figure>
+  <img src="/images/wezterm-rn.png" alt="my current wezterm configuration">
+  <figcaption>
+    <p>my current wezterm configuration</p>
+  </figcaption>
+</figure>
+
 I still have my Rio and Alacritty configs in my [dotfiles](https://github.com/NSPC911/dotfiles). I will talk about my dotfile journey in a different post.
