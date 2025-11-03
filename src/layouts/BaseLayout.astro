@@ -162,9 +162,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
   @import "../styles/nord.css";
   @keyframes dotColorShift {
     0% { background-color: var(--nord2) }
-    25% { background-color: var(--nord3) }
-    50% { background-color: var(--nord10) }
-    75% { background-color: var(--nord3) }
+    50% { background-color: var(--nord3) }
     100% { background-color: var(--nord2) }
   }
 
@@ -178,7 +176,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
     background-size: 20px 20px;
     background-repeat: repeat;
     animation:
-      dotColorShift 6s linear infinite,
-      dotMove 2s linear infinite;
+      dotColorShift 10s linear infinite,
+      dotMove 3.75s linear infinite;
   }
 </style>
