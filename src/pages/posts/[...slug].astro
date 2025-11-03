@@ -6,13 +6,13 @@ export async function getStaticPaths() {
   const posts = (await getCollection('posts'))
     .filter(post => !post.data.draft)
     .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-  
+
   return posts.map((post, index) => ({
     params: { slug: post.slug },
     props: {
       post,
-      prevPost: index < posts.length - 1 ? posts[index + 1] : null,
-      nextPost: index > 0 ? posts[index - 1] : null,
+      prevPost: index > 0 ? posts[index - 1] : null,
+      nextPost: index < posts.length - 1 ? posts[index + 1] : null,
     },
   }));
 }
@@ -24,7 +24,7 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
 
 <PostLayout {...post.data}>
   <Content />
-  
+
   <div class="pagination">
     <div class="pagination__title">
       <span class="pagination__title-h">Read other posts</span>
