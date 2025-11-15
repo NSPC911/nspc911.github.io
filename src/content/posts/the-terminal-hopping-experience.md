@@ -6,10 +6,6 @@ author: "NSPC911"
 tags: ["rice","terminals"]
 ---
 
-<script>
-const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
-</script>
-
 So, terminals, our lovely tool that we spend so much time on.
 
 Maybe you are on neovim, configuring your plugins instead of doing some actual work.

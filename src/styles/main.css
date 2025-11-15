@@ -224,7 +224,7 @@ ul li:not(:empty)::before {
 
 /* Nested lists */
 ul ul {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 /* Selection */
