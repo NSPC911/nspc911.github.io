@@ -19,7 +19,7 @@ Anyways, the point is that us developers love the terminal. We are in it all the
   Windows Terminal was obviously the first one I started with. This was back when I was still running my old Lenovo 300e
 
 <figure>
-  <img src="/images/mygoat.png" alt="picture of my lenovo 300e in its final stages"/>
+  <img src="/images/terminal-hopping-experience/mygoat.png" alt="picture of my lenovo 300e in its final stages"/>
   <figcaption>
     <p>my goated lenovo 300e, stayed with me for 4 years</p>
   </figcaption>
@@ -36,7 +36,7 @@ I was using VSCode then, and wasn't as interested in the terminal as before
   This was when I got my Surface Pro 7+. It had its motherboard fried recently, but that's not the point.
 
 <figure>
-  <img src="/images/surface.png" alt="picture of my surface pro 7+ not able to boot"/>
+  <img src="/images/terminal-hopping-experience/surface.png" alt="picture of my surface pro 7+ not able to boot"/>
   <figcaption>
     <p>my surface pro, served me well while it lasted (7 months)</p>
   </figcaption>
@@ -47,7 +47,7 @@ I started using Warp because I found the concept of having a terminal AI assista
 Warp forced me away from `cmd`, to `powershell` (not `pwsh` for now). I did miss `cmd`'s syntax for a while, but I grew to like `powershell`'s verbose nature
 
 <figure>
-  <img src="/images/warp.png" alt="my warp setup"/>
+  <img src="/images/terminal-hopping-experience/warp.png" alt="my warp setup"/>
   <figcaption>
     <p>my warp setup</p>
   </figcaption>
@@ -71,7 +71,7 @@ So I searched for more.
 
   Rio was a major upgrade from Alacritty. I finally got splits, a cool bookmark tab thing, and also ligatures!
 <figure>
-  <img src="/images/rio.png" alt="my rio setup"/>
+  <img src="/images/terminal-hopping-experience/rio.png" alt="my rio setup"/>
   <figcaption>
     <p>my rio setup</p>
   </figcaption>
@@ -91,7 +91,7 @@ I was pretty satisfied with this setup, aside from a few flaws with rio itself.
   This actually happens quite a lot of time, but I can't make it occur at will
 
 <figure>
-  <img src="/images/ghostsplit_inrio.png" alt="ghost splits in rio"/>
+  <img src="/images/terminal-hopping-experience/ghostsplit_inrio.png" alt="ghost splits in rio"/>
   <figcaption>
     <p>ghost splits in rio</p>
   </figcaption>
@@ -102,7 +102,7 @@ I was pretty satisfied with this setup, aside from a few flaws with rio itself.
   This happened in a little stress tester moment, super funny, managed to lag the hell out of my surface
 
 <figure>
-  <img src="/images/negativesplit_inrio.png" alt="negative splits in rio"/>
+  <img src="/images/terminal-hopping-experience/negativesplit_inrio.png" alt="negative splits in rio"/>
   <figcaption>
     <p>what happens when you hold down the create split button for 10 seconds</p>
   </figcaption>
@@ -110,7 +110,7 @@ I was pretty satisfied with this setup, aside from a few flaws with rio itself.
 
 Anyways, I didn't really switch from rio, it took me about a month to actually get out, because of wezterm's issues
 
-<img src="/images/weztermbeingfunny.png" alt="wezterm glitching out in its rendering"/>
+<img src="/images/terminal-hopping-experience/weztermbeingfunny.png" alt="wezterm glitching out in its rendering"/>
 
 Until I managed to fix it with
 ```lua
@@ -124,7 +124,7 @@ config.automatically_reload_config = true
   With that now solved, I am now still using Wezterm. The config reached 220+ lines, and aside from some minor ocassional crashes, there isn't any issues.
 
 <figure>
-  <img src="/images/wezterm-rn.png" alt="my current wezterm configuration">
+  <img src="/images/terminal-hopping-experience/wezterm-rn.png" alt="my current wezterm configuration">
   <figcaption>
     <p>my current wezterm configuration</p>
   </figcaption>

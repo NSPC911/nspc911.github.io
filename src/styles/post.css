@@ -125,12 +125,9 @@ article time {
 /* Video embeds */
 .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
   overflow: hidden;
   margin: 25px 0;
   border: 8px solid var(--accent);
-  background: var(--background);
 }
 
 .video-wrapper iframe {
@@ -140,6 +137,11 @@ article time {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto
 }
 
 /* Twitter embeds */
