@@ -356,16 +356,21 @@ blockquote p:last-child {
   margin-bottom: 0;
 }
 
-table {
-  table-layout: auto;
-  border-collapse: collapse;
-}
-
 table,
 th,
 td {
   border: 2px solid var(--accent);
   padding: 10px;
+}
+
+table {
+  table-layout: auto;
+  border-collapse: collapse;
+  overflow: scroll;
+  display: block;
+  position: relative;
+  border: none;
+  padding: 0;
 }
 
 th {
