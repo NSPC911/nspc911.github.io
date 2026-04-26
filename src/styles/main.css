@@ -212,13 +212,12 @@ ul {
 
 ul li {
   position: relative;
-  left: 1ch;
 }
 
-ul li:not(:empty)::before {
-  content: "❯";
+li:not(:empty)::before {
+  content: "●";
   position: absolute;
-  left: -3ch;
+  left: -2.5ch;
   color: var(--accent);
 }
 
