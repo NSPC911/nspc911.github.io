@@ -53,7 +53,7 @@ So, why Bun?
 
 By buying bun, Anthropic ensures that they have a say in bun's future, and ensure that they have the slightest edge over opencode.
 
-This also begs the question, what the fuck are these CEOs saying?
+This also begs the question, what are these CEOs saying?
 
 <div class="video-wrapper">
   <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/esCSpbDPJik?rel=0&start=985" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *;" referrerpolicy="strict-origin"></iframe></div>
@@ -82,7 +82,7 @@ But I genuinely love AI as a code reviewer. There are some faults here and there
 
 Oh how do I even start?
 
-1. GPU prices have absolutely soared within the last 5 years. It originally was already high thanks to Crypto Miners, but made worse thanks to these fucking companies that buy anything remotely close to a GPU.
+1. GPU prices have absolutely soared within the last 5 years. It originally was already high thanks to Crypto Miners, but made worse thanks to these amazing companies that buy anything remotely close to a GPU.
 
 Clearly there is an issue when NVIDIA pays AI companies to buy GPUs from them, but no, apparently that is legal enough. But you know what is illegal? Colored people with no criminal backgrounds in the US, because clearly they are much more of an issue compared to a white Drug Dealer? (The US is genuinely such a shitshow, I'm happy I still haven't stepped foot into it).
 
@@ -97,13 +97,13 @@ Within the last month, RAM prices have also increased, by a lot. I think this me
 
 If this couldn't get worse, [Micron left the consumer RAM space for 'other important' profitable spaces](https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business).
 
-But guess what, even [Samsung needs to negotiate with Samsung itself](https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html) (true or not), what the fuck is going on right now? Why was I born in 2008??
+But guess what, even [Samsung needs to negotiate with Samsung itself](https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html) (true or not), what is going on right now? Why was I born in 2008??
 
 It kind of barely affected me, because I got my new laptop (Lenovo IdeaPad 5) in October, but I still face issues related to not having a dedicated GPU.
 
 My teacher was talking about how he would be buying a Strix Halo on Black Friday, look how that turned out?
 
-Now with all these in mind, PC builders stopped building PCs, which led to motherboard manufacturers losing demand, because these fucking datacenters don't care about motherboards, because they manufacture custom ones.
+Now with all these in mind, PC builders stopped building PCs, which led to motherboard manufacturers losing demand, because these datacenters don't care about motherboards, because they manufacture custom ones.
 
 So we have insanely high GPU and RAM prices, low motherboard prices. And guess what is our alternative? Using NVIDIA GeForce Now. Essentially renting your own system.
 
@@ -124,7 +124,7 @@ This seems the most likely, considering how much Google has advanced, how bad Mi
 
 This means only Google will emerge as the AI monopoly, once again, just like in other areas.
 
-3. The stock market fucking dies like the dotcom bubble burst, but worse
+3. The stock market crashes and burns like the dotcom bubble burst, but worse
 
 This feels the least likely due to 'Too big to fail'
 

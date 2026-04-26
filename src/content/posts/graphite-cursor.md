@@ -11,7 +11,7 @@ Okay, so this isn't going to be a rant, just some thoughts.
 I recently discovered graphite, before the acquisition by Cursor.
 
 Graphite is a code review platform that is well integrated with GitHub, and has a really nice UI for code reviews.
-- Graphite is able to casually handle massive Pull Requests with ease, something that GitHub struggles with. &#91 https://github.com/orgs/community/discussions/10830 &#93
+- Graphite is able to casually handle massive Pull Requests with ease, something that GitHub struggles with. https://github.com/orgs/community/discussions/10830
 - Graphite's UI is much more modern and sleek compared to GitHub's code review UI.
 
 So with the Cursor acquisition, I'm a bit concerned on the path that they may take Graphite, similar to how Anthropic bought [oven-sh/bun](https://github.com/oven-sh/bun).

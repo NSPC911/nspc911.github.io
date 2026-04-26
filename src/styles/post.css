@@ -267,3 +267,12 @@ sup[data-footnote-ref] a:hover {
   margin-left: 5px;
   font-size: 0.9em;
 }
+
+.post a {
+  padding: 0px 2.5px
+}
+
+.post a:hover {
+  color: var(--background);
+  background: var(--accent);
+}

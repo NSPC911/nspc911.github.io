@@ -214,7 +214,7 @@ ul li {
   position: relative;
 }
 
-li:not(:empty)::before {
+ul li:not(:empty)::before {
   content: "●";
   position: absolute;
   left: -2.5ch;
