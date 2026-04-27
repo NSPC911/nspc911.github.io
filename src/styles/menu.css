@@ -106,7 +106,7 @@
   color: var(--accent);
   border: 2px solid;
   height: 100%;
-  padding: 3px 8px;
+  padding: 3px 8px 3px 18px;
   margin-bottom: 0 !important;
   position: relative;
   cursor: pointer;
