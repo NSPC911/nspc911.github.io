@@ -60,3 +60,18 @@ Now lets get to the problem.
 So what is the point? Why should I use Copilot? If the best models are charged at such steep prices, then why bother? Why can't I just get a HuggingFace subscription and run it off there?<br>
 I'm still going to use Copilot; it's free for me, and it is _still working_ (although perhaps not for long). But I think I suggest y'all to switch away.
 Switch to something like OpenCode Go, or any Chinese companies. Clearly American firms are interested in getting the most money possible.
+
+The market aquiring phase is over; it is now the milking phase.
+
+---
+
+Updated: 28 April
+
+[New model multipliers for those in annual subscriptions](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing#model-multipliers-for-annual-copilot-pro-and-copilot-pro-subscribers)
+
+What even is this? Overall x5-x9 increase in the initial multipliers, Opus 4.7 is at 27x, nearly hitting Opus 4.6 (Fast), what actual BS.
+
+[Github is moving to usage based billing](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing)
+
+Yeah, so there simply is no reason to pay for this. Get Claude Code or GPT Codex, because guess what, $10 will only give you $10 in Copilot Credits, and it doesn't get brought over.<br>
+Just switch, there is no point to save the sinking ship, clearly enterprise demand is inelastic enough to do this.
