@@ -8,12 +8,24 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
 
 <BaseLayout title="exited with error code 404 | NSPC911">
   <div class="page">
-    <h1>404 — Page not found...</h1>
-      <p>The page you're looking for doesn't exist. It might have been moved, deleted, or you may have entered the wrong URL.</p>
-      <div>
-        <a href={base} class="button inline">
-          <span class="button__text"><UndoDot/> {missingBackButtonLabel}</span>
-        </a>
-      </div>
+    <h1 id="404-title">404 — Page not found...</h1>
+    <p id="404-message">The page you're looking for doesn't exist. It might have been moved, deleted, or you may have entered the wrong URL.</p>
+    <div id="404-actions">
+      <a href={base} class="button inline">
+        <span class="button__text"><UndoDot/> {missingBackButtonLabel}</span>
+      </a>
+    </div>
   </div>
+  
+  <script>
+    // Check if this is a /themes/vencord or /themes/vencord/* path that should redirect
+    const path = window.location.pathname;
+    if (path === '/themes/vencord' || path.startsWith('/themes/vencord/')) {
+      const redirectTarget = path.replace('/themes/vencord', '/vencord-themes');
+      document.getElementById('404-title').textContent = 'Redirecting...';
+      document.getElementById('404-message').textContent = `This page has moved to ${redirectTarget}`;
+      document.getElementById('404-actions').innerHTML = `<a href="${redirectTarget}" class="button inline"><span class="button__text">Go to ${redirectTarget}</span></a>`;
+      window.location.href = redirectTarget;
+    }
+  </script>
 </BaseLayout>
