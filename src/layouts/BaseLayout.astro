@@ -169,15 +169,19 @@ const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL :
 
   @keyframes dotMove {
     0% { background-position: 0 0 }
-    100% { background-position: 20px 0 }
+    25% { background-position: 20px 5px }
+    50% { background-position: 40px 10px }
+    75% { background-position: 60px 15px }
+    100% { background-position: 80px 20px }
   }
 
   body {
     background: radial-gradient(circle at center, transparent 1px, var(--nord0) 1.5px);
     background-size: 20px 20px;
     background-repeat: repeat;
+    will-change: background-position;
     animation:
       dotColorShift 10s linear infinite,
-      dotMove 3.75s linear infinite;
+      dotMove 15s linear infinite;
   }
 </style>
