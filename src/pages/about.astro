@@ -1,6 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { Github, Reddit, Youtube, Bluesky, X , Ycombinator } from 'simple-icons-astro';
+import Github from 'simple-icons-astro/Github';
+import Reddit from 'simple-icons-astro/Reddit';
+import Youtube from 'simple-icons-astro/Youtube';
+import Discord from 'simple-icons-astro/Discord';
+import X from 'simple-icons-astro/X';
+import Ycombinator from 'simple-icons-astro/Ycombinator';
 ---
 
 <BaseLayout title="$PROFILE | NSPC911">
@@ -22,7 +27,7 @@ import { Github, Reddit, Youtube, Bluesky, X , Ycombinator } from 'simple-icons-
         <td data-svg="youtube"><a href="https://youtube.com/@NSPG911"><Youtube/> Youtube</a></td>
       </tr>
       <tr>
-        <td data-svg="bluesky"><a href="https://bsky.app/profile/did:plc:mzr5ka3kgplcb7buvrde36oe"><Bluesky/> Bluesky</a></td>
+        <td data-svg="discord"><a href="https://nspc911.github.io/discord"><Discord/> Discord</a></td>
         <td data-svg="xtwitter"><a href="https://x.com/Nspg9"><X/> X/Twitter</a></td>
         <td data-svg="hackernews"><a href="https://news.ycombinator.com/user?id=NSPG911"><Ycombinator/> Hacker News</a></td>
       </tr>
@@ -64,8 +69,8 @@ td[data-svg="reddit"] svg {
 td[data-svg="youtube"] svg {
   fill: #ff0033;
 }
-td[data-svg="bluesky"] svg {
-  fill: #33a5ff;
+td[data-svg="discord"] svg {
+  fill: #5865F2;
 }
 td[data-svg="xtwitter"] svg {
   fill: black;
