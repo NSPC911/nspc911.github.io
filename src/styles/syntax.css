@@ -129,7 +129,7 @@
 /* Inline code in different contexts */
 .post-content code,
 .page code {
-  word-break: break-word;
+  word-break: keep-all;
 }
 
 /* Code block containers */
