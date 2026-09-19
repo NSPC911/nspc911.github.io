@@ -84,14 +84,14 @@ I've seen people complain about powershell's naming scheme, the `Verb-Noun` synt
 
 But I find it easy to wrap my head around once I know a bit. There are also a lot of convenient aliases that can help you save a bit of time and mental capacity.
 
-`Get-Help`: get help for a given command
-`Invoke-WebRequrest`: start a web request to a given uri
-`Add-History`: add a given array of strings to history
-`Clear-Host`: clear the host's screen
-`Write-Host`: write on the host's screen a given image (can be coloured with flags)
-`Format-List`: format a given array into a list view
-`Out-File`: outputs stdin to a file, basically `>` with some changes
-`Resolve-Path`: resolve a given path, including wildcards
+`Get-Help`: get help for a given command<br/>
+`Invoke-WebRequrest`: start a web request to a given uri<br/>
+`Add-History`: add a given array of strings to history<br/>
+`Clear-Host`: clear the host's screen<br/>
+`Write-Host`: write on the host's screen a given image (can be coloured with flags)<br/>
+`Format-List`: format a given array into a list view<br/>
+`Out-File`: outputs stdin to a file, basically `>` with some changes<br/>
+`Resolve-Path`: resolve a given path, including wildcards<br/>
 
 okay, you get the gist (hopefully)
 
