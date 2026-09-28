@@ -105,3 +105,8 @@ If only there's a powershell-like language, with the intuitive commands, ease of
 <br/><sub>Backwards compatibility on powershell would be nice, kind of like a rust rewrite of powershell, but breaking every dotnet object</sub>
 
 Until then, thanks for coming to my Ted-Talk
+
+---
+
+Notes:
+- Refer to my new post: [amendments-to-prev-pwsh-post](https://nspc911.github.io/posts/if-only-pwsh-was-faster)
