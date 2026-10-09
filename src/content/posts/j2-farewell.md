@@ -31,6 +31,8 @@ honestly, i feel that the secondary school I was in spoilt me, there were much l
 > Can start me sinking down\
 > ~ _from "The Entertainment's Here" by AJR_
 
+I think AJR has a song for any stage of life that you are in. Whether you are down, or up, divorced or in a car, they have amazing songs to listen to.
+
 Maybe I will look back at this post 5 months later after getting my results. Hopefully future me is proud of my current struggles. I hope I can make my future self proud and not disappoint my parents. I hope I don't repeat the mistakes done in my O' Levels.
 
 <figure>
